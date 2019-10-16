@@ -25,6 +25,7 @@ export default function CharacterList() {
       {characters.map(character => {
         return (
           <CharacterCard
+            id={character.id}
             name={character.name}
             image={character.image}
             species={character.species}
