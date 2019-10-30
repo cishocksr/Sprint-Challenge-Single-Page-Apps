@@ -18,7 +18,7 @@ export default function CharacterList() {
       .catch(error => {
         console.log(error);
       });
-  }, []);
+  }, [characters]);
 
   return (
     <section className="character-list">

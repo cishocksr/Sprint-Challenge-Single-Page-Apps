@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function WelcomePage() {
   return (
@@ -7,8 +6,6 @@ export default function WelcomePage() {
       <header>
         <nav>
           <h1>Welcome to the ultimate fan site!</h1>
-          <Link to="/characters">Character</Link>
-          <Link to="/">Home</Link>
         </nav>
         <img
           className="main-img"
